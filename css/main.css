@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.brand{
+  font-family: 'Fredoka', sans-serif;
+}
+.dropdown:focus-within .dropdown-menu {
+  opacity:1;
+  transform: translate(0) scale(1);
+  visibility: visible;
+}
+.text-gradient{
+  background: -webkit-linear-gradient(right, #38bdf8, #0369a1, #a1deff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient:hover{
+  background: -webkit-linear-gradient(left, #38bdf8, #0369a1, #a1deff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 3s;
+}
+@media (min-width: 350px) {
+  .navbar ul{
+    font-size: 1rem;
+  }
+  .search form{
+    padding: 0.75rem 10rem;
+  }
+}
+@media (max-width: 767px) {
+  .navbar ul{
+    font-size: 1.017rem;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .navbar{
+    padding-right: 0.5rem;
+  }
+}
+
+.github:hover{
+  color :rgb(60, 138, 255);
+
+}
+

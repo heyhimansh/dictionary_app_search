@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- custom google font poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- custom google font Fredoka -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <title>Dictionory</title>
+
+  <style type="text/tailwindcss">
+    @layer base {
+      body{
+        font-family: 'Poppins', sans-serif;
+      }
+    }
+  </style>
+</head>
+<body class="flex flex-col justify-center items-center bg-gray-900">
+  <div class="app bg-white min-h-screen w-full lg:w-380 md:w-380 mx-5 max-w-sm lg:max-w-md">
+    <div class="container-sm">
+        <div class="px-4 content py-3">
+          <div class="flex justify-between items-center">
+            <h2 class="text-sky-700 text-3xl brand font-semibold mb-2">inSearch</h2>
+              <div class="relative inline-block text-left dropdown">
+                <span class="rounded-md shadow-sm"
+                  ><button class="inline-flex justify-center w-full py-3 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white borderrounded-md hover:text-gray-500 focus:outline-none focus:text-sky-500 focus:shadow-outline-blue active:text-gray-800" 
+                  type="button" aria-haspopup="true" aria-expanded="true" aria-controls="headlessui-menu-items-117">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                    <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                  </svg>
+                    </button
+                ></span>
+                <div class="opacity-0 invisible dropdown-menu transition-all duration-300 transform origin-top-right -translate-y-2 scale-95">
+                  <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-sky-400/25 divide-y  rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                    <div class="py-2">
+                      <a href="connect.html" tabindex="1" class="text-gradient flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"  role="menuitem" >Connect</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-sky-400/75 flex flex-col items-center justify-center px-4 py-8 my-28 rounded-lg">
+              <h2 class="text-sky-700 text-4xl brand font-semibold mb-1.5">About Us</h2>
+              <p class="text-center text-16 text-white my-2">I'm a Freshman pursuing Computer Science and  Engineering from Delhi Technological University .I am fluent in classics like C++, Javascript and Html. I am always ready to have new experiences, meet new people and learn new things. Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks  like React.js and Next.js </p>
+              <p class="text-lg font-medium mt-8 brand text-center">
+                Made by ❤️ <a href="https://github.com/heyhimansh" class="github">Himanshu</a></p>
+            </div>
+            
+            <p class="text-lg font-medium mt-8 brand text-center">
+              Made by ❤️ <a href="https://github.com/heyhimansh" class="github" target="_blank">Himanshu</a></p>
+              
+              
+          </div>
+        </div>
+        
+
+
+      </div>
+      <!-- Content Selesai-->
+      <!-- Navbar Section -->
+      <div class="navbar bg-sky-500 py-4 lg:py-5 fixed bottom-0 lg:pr-0" style="padding-right: 0.1rem;">
+        <ul class="flex text-center items-center justify-around mx-navbar text-white text-10 lg:text-base md:text-md">
+          <li class="px-3 flex-co">
+            <i class="bi bi-house-fill"></i>
+            <a href="index.html">Home</a>
+          </li>
+          <li class="px-3">
+            <i class="bi bi-compass"></i>
+            <a href="search.html">Search</a>
+          </li>
+          <li class="px-3 text-sky-800">
+            <i class="bi bi-layout-text-window"></i>
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Navbar Section Selesai -->
+    </div>
+  </div>
+</body>
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        width: {
+        '380': '381px',
+        '68': '66rem',
+        },
+        paddingRight: {
+          '2': '0.30rem',
+        },
+        fontSize: {
+          '26': '26px',
+          '15': '15.4px',
+          '10': '7px',
+        },
+        padding: {
+          '65': '0.65rem',
+        },
+        margin: {
+          'navbar': '2.97rem',
+        },
+      }
+    }
+  }
+</script>
+
+<script src="https://kit.fontawesome.com/1c1fe6136b.js" crossorigin="anonymous"></script>
+</html>
