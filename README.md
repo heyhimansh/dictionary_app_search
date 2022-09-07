@@ -16,7 +16,8 @@
 <a href="https://open.spotify.com/user/31zeqffddar3axjbc4koafautcgq?si=y-OSp3gSRcSjPhdb7T5Fgw">
   <img align="left" alt="Himanshu's Spotify" width="28px" src="https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png" />
 </a> 
-<br>                                                                                                                                                 
+
+<br>
 
 ![](https://visitor-badge.glitch.me/badge?page_id=heyhimansh.dictionary_app_search)
 
