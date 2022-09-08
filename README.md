@@ -1,7 +1,7 @@
 # dictionary_app_search
 
 
-### Hey there ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+### Hey there    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 <br>
 <a href="https://discord.com/channels/@me">
   <img align="left" alt="Himanshu's Discord" width="28px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" />
@@ -17,10 +17,12 @@
   <img align="left" alt="Himanshu's Spotify" width="28px" src="https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png" />
 </a> 
 
-<br>
+<img  alt="view" width="78%" src="imgg/temp.png" href="dictionary-app-search.vercel.app" />
+
+
+
 
 ![](https://visitor-badge.glitch.me/badge?page_id=heyhimansh.dictionary_app_search)
-
 <a target="_blank" href="dictionary-app-search.vercel.app"><b># 
 dictionary_app</b></a>
 
