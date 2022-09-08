@@ -21,6 +21,6 @@
 
 ![](https://visitor-badge.glitch.me/badge?page_id=heyhimansh.dictionary_app_search)
 
-<a target="_blank" href="https://heyhimansh.github.io/dictionary_app_search/"><b># 
+<a target="_blank" href="dictionary-app-search.vercel.app"><b># 
 dictionary_app</b></a>
 
