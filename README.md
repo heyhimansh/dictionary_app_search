@@ -23,6 +23,6 @@
 
 
 ![](https://visitor-badge.glitch.me/badge?page_id=heyhimansh.dictionary_app_search)
-<a target="_blank" href="dictionary-app-search.vercel.app"><b># 
+<a target="_blank" href="https://dictionary-app-search.vercel.app/"><b># 
 dictionary_app</b></a>
 
